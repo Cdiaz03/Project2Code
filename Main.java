@@ -210,7 +210,7 @@ class Hand {
            value[1] = topStraightValue;
        }
    }
- 
+
    void showResult() {
        String s;
        switch(value[0]) {
