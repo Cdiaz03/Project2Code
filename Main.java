@@ -171,7 +171,7 @@ class Hand {
            value[2] = largeGroupRank < smallGroupRank ? largeGroupRank : smallGroupRank;
            value[3] = orderedRanks[0]; //extra card
        }
-       // three of a kind woah ms gaber you really read this far
+       // three of a kind, woah ms gaber you really read this far
        if (sameCards == 3 && sameCards2 != 2) {
            value[0] = 4;
            value[1] = largeGroupRank;
